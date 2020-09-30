@@ -1,0 +1,16 @@
+<div>
+    <h2>My Projects</h2>
+    <h3>Heres some stuff i've made</h3>
+    <br>
+    <ul>
+        <li *ngFor = "let project of projects">
+            <div class="project">
+                <h2>{{project.name}}</h2>
+                <img src="{{project.icon}}">
+                <br>
+                <p>{{project.description}}</p>
+                <a class="ToPage" href="{{project.link}}">Go See</a>
+            </div>
+        </li>
+    </ul>
+</div>
