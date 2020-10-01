@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { SpecsComponent } from './specs/specs.component';
 import { WorkComponent } from './work/work.component';
+import { AzureComponent } from './azure/azure.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { WorkComponent } from './work/work.component';
     ProjectsComponent,
     HomeComponent,
     SpecsComponent,
-    WorkComponent
+    WorkComponent,
+    AzureComponent
   ],
   imports: [
     BrowserModule,

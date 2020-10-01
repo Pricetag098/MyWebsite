@@ -2,7 +2,7 @@ import { from, Subject } from 'rxjs';
 import { Assignment} from './assignment';
 
 export const Assignments: Assignment[] = [
-
+    
     //new dict for each assignment
 
     {
@@ -19,7 +19,7 @@ export const Assignments: Assignment[] = [
         dueDate: '15/10/20',
         description: "DESCRIPTION"
     },
-    {
+    { 
         id: 2,
         name: 'Test',
         subject: 'TEST',
