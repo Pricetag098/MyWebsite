@@ -10,6 +10,7 @@ export class AssignmentsService {
   constructor() { }
 
   public getAssignment(): Assignment[]{
-    return Assignments
+    
+    return Assignments.sort((a,b) => (+(a.dueDate.split("/",2)[1]) - +(b.dueDate.split("/",2)[1]))) 
   }
 }

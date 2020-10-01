@@ -9,19 +9,36 @@ export const Assignments: Assignment[] = [
         id: 0,
         name: 'SHE BioDegradabe Polymers',
         subject: 'Chem',
-        dueDate: '2/11'
+        dueDate: '2/11/20',
+        description: "DESCRIPTION"
     },
     {
         id: 1,
         name: 'Direct Investigation',
         subject: 'Maths',
-        dueDate: '15/10'
+        dueDate: '15/10/20',
+        description: "DESCRIPTION"
     },
     {
         id: 2,
         name: 'Test',
         subject: 'TEST',
-        dueDate: '5/11'
+        dueDate: '5/11/20',
+        description: "DESCRIPTION"
+    },
+    {
+        id: 2,
+        name: 'Test',
+        subject: 'TEST',
+        dueDate: '5/11/20',
+        description: "DESCRIPTION"
+    },
+    {
+        id: 2,
+        name: 'Test',
+        subject: 'TEST',
+        dueDate: '5/11/20',
+        description: "DESCRIPTION"
     }
 
 

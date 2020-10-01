@@ -3,4 +3,5 @@ export interface Assignment {
     name : string;
     subject: string;
     dueDate: string;
+    description: string;
 }

@@ -2,11 +2,13 @@
     <h2>My workload for the next month</h2>
     
     <br>
-    <span>
-        <div *ngFor = 'assignment of assignments' class="card">
-            <h3>{{assignment.name}}</h3>
-            <br>
+    
+        <div *ngFor = "let assignment of assignments" class="card">
+            <p class="dDate">{{assignment.dueDate}}</p>
+            <h2 class="aTitle">{{assignment.name}}</h2>
+            <h3>{{assignment.subject}}</h3>
+            <p>{{assignment.description}}</p>
         </div>
-    </span>
+    
     
 </div>
