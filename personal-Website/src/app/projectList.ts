@@ -17,11 +17,11 @@ export const Projects: Project[] = [
     {
         id : 1,
         name : "The Darksouls Of Sword-Fighting Games",
-        icon : "../assets/images/test.png",
+        icon : "../assets/images/TDSOSFG.png",
         description : `My final project for my vet course. 
         Roam through a small map sword fighting enemys along the way untill you reach the boss.
         voice acted by friends and my teacher`,
-        link : ""
+        link : "https://drive.google.com/uc?id=1crg3HTtgZ18B5iroxxTl2wzDuoRsNWAe&export=download"
     },
     {
         id : 2,
